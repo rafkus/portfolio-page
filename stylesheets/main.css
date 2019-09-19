@@ -1,5 +1,6 @@
 body {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  min-width: 320px; }
 
 ul {
   padding-left: 0;
@@ -22,20 +23,21 @@ a {
 .bg-grey {
   background-color: #f2f3f2; }
 
-.container {
+.cnt {
   box-sizing: border-box;
-  display: flex;
-  margin: 0 auto;
   min-width: 320px;
+  margin: 0 auto;
   padding: 0 20px; }
+  @media (min-width: 576px) {
+    .cnt {
+      max-width: 1040px; } }
 
-.container--small {
-  max-width: 680px; }
+@media (min-width: 576px) {
+  .cnt--small {
+    max-width: 680px; } }
 
-.container--big {
-  padding: 70px 20px;
-  justify-content: space-between;
-  align-items: center; }
+.flex {
+  display: flex; }
 
 .flex-space-around {
   justify-content: space-around; }
@@ -43,10 +45,6 @@ a {
 .flex-col {
   align-items: center;
   flex-direction: column; }
-
-.about {
-  flex-direction: column;
-  align-items: center; }
 
 .section {
   padding: 70px 0px;
@@ -57,9 +55,14 @@ a {
   text-align: center; }
 
 .header {
-  min-width: 320px;
   background-color: #50bc9d;
   color: white; }
+
+.header__wrapper {
+  display: flex;
+  padding: 70px 20px;
+  justify-content: space-between;
+  align-items: center; }
 
 .header__title {
   font-size: 20px;
@@ -73,35 +76,36 @@ a {
 
 .header__menu-toggle {
   display: block; }
+  @media (min-width: 576px) {
+    .header__menu-toggle {
+      display: none; } }
 
 .header__menu-items {
   display: none; }
+  @media (min-width: 576px) {
+    .header__menu-items {
+      display: flex; } }
 
 .header__menu-item {
   margin: 0px 10px;
   text-transform: uppercase; }
-
-.header__link {
-  color: white;
-  transition: 0.2s; }
-
-.header__link:hover {
-  color: black; }
+  .header__menu-item:last-child {
+    margin-right: 0; }
 
 .footer {
+  position: relative;
   height: 160px;
-  background-color: #303030;
-  position: relative; }
+  background-color: #303030; }
 
 .copyright {
   position: absolute;
   bottom: 0;
-  background-color: #202020;
-  padding: 20px 0;
-  color: white;
-  text-align: center;
   width: 100%;
-  margin: 0; }
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+  color: white;
+  background-color: #202020; }
 
 .link {
   transition: 0.2s; }
@@ -121,45 +125,32 @@ a {
   .link--green:hover {
     color: #10946e; }
 
-.section--about {
-  min-width: 320px;
-  background-color: #f2f3f2; }
-
-.about__container {
-  margin: 0 auto;
-  max-width: 680px; }
-
-.about__content {
-  display: flex;
+.about {
   flex-direction: column;
-  align-items: center; }
-
-.about__text {
-  text-align: center;
-  margin-top: 0; }
+  align-items: center;
+  text-align: center; }
 
 .about__github {
-  font-size: 20px; }
+  font-size: 20px;
+  text-align: center; }
 
-.container--project {
+.projects {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  max-width: 1800px; }
 
 .project {
   width: 400px;
   background-color: #50bc9d;
   padding: 40px 20px;
-  margin: 40px 0;
+  margin: 20px 10px;
   box-sizing: border-box; }
 
 .project__title {
   text-align: center;
   margin-top: 0;
   width: 100%; }
-
-.container--project-flex {
-  display: flex; }
 
 .project__meta {
   display: flex;
@@ -190,42 +181,30 @@ a {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px; }
+  @media (min-width: 576px) {
+    .skills {
+      display: flex;
+      flex-direction: row;
+      align-items: center; } }
 
 .skills__main-list {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: center; }
+  @media (min-width: 576px) {
+    .skills__main-list {
+      flex-direction: row;
+      justify-content: space-evenly; } }
 
 .skills__main-list-item {
-  padding-left: 10px; }
+  padding-left: 10px;
+  width: 100%; }
+  @media (min-width: 576px) {
+    .skills__main-list-item {
+      width: 30%; } }
 
-.skills__main-list-item > ul > li {
+.skills__main-list-item li {
   margin-bottom: 6px;
   line-height: 1; }
-
-@media screen and (min-width: 600px) {
-  .container {
-    max-width: 1040px; }
-
-  .about {
-    max-width: 640px; }
-
-  .header__menu-items {
-    display: flex; }
-
-  .header__menu-toggle {
-    display: none; }
-
-  .skills {
-    display: flex;
-    flex-direction: row;
-    align-items: center; }
-
-  .skills__main-list {
-    flex-direction: row; }
-
-  .project {
-    width: 400px;
-    background-color: #50bc9d;
-    padding: 40px 40px; } }
 
 /*# sourceMappingURL=main.css.map */

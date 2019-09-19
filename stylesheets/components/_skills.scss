@@ -2,18 +2,35 @@
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
+
+  @include respond-above(xs) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .skills__main-list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
+  @include respond-above(xs) {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 .skills__main-list-item {
   padding-left: 10px;
+  width: 100%;
+
+  @include respond-above(xs) {
+    width: 30%;
+  }
 }
 
-.skills__main-list-item > ul > li {
+.skills__main-list-item li {
   margin-bottom: 6px;
   line-height: 1;
 }

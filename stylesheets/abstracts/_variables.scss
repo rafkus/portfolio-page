@@ -20,16 +20,22 @@ $link-green-hover: $green-color-hover;
 
 $font-primary: 'Montserrat', sans-serif; 
 
+$container-max-width-small: 680px;
+$page-min-width: 320px;
+$page-max-width: 1040px;
+
 $container-padding: 0 20px;
 $container-header-padding: 70px 20px;
-
+$projects-max-width: 1800px;
+$project-item-width: 400px;
 
 $header-bg-color: $green-color;
 $header-font-color: white;
 
-$about-bg-color: $grey-color;
+// now I think they are unnecessary...
+$project-item-padding: 40px 20px;
+$project-item-margin: 20px 10px;
 
-$page-min-width: 320px;
-$page-max-width: 1040px;
-
-
+$project-date-color: white;
+$project-meta-height: 250px;
+$project-sources-font-size: 20px;

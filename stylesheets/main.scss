@@ -4,7 +4,6 @@
 @import './base/base';
 @import './base/helpers';
 
-@import './layout/helpers'; 
 @import './layout/section';
 @import './layout/header'; 
 @import './layout/footer'; 
@@ -15,39 +14,39 @@
 @import './components/skills';
 
 
-@media screen and (min-width: 600px) {
-  .container {
-    max-width: $page-max-width;
-  }
+// @media screen and (min-width: 600px) {
+//   .container {
+//     max-width: $page-max-width;
+//   }
 
-  .about {
-    max-width: 640px;
-  }
+//   .about {
+//     max-width: 640px;
+//   }
 
-  .header__menu-items {
-    display: flex;
-  }
+//   .header__menu-items {
+//     display: flex;
+//   }
 
-  .header__menu-toggle {
-    display: none;
-  }
+//   .header__menu-toggle {
+//     display: none;
+//   }
 
-  .skills {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+  // .skills {
+  //   display: flex;
+  //   flex-direction: row;
+  //   align-items: center;
+  // }
 
-  .skills__main-list {
-    flex-direction: row;
-  }
+  // .skills__main-list {
+  //   flex-direction: row;
+  // }
 
 
-  .project {
-    width: 400px;;
-    background-color: #50bc9d;
-    padding: 40px 40px;
-  }
-}
+//   .project {
+//     width: 400px;;
+//     background-color: #50bc9d;
+//     padding: 40px 40px;
+//   }
+// }
 
 

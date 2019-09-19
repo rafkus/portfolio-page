@@ -13,3 +13,34 @@
 .bg-grey {
   background-color: $grey-color;
 }
+
+.cnt {
+  box-sizing: border-box;
+  min-width: $page-min-width;
+  margin: 0 auto;
+  padding: $container-padding;
+
+  @include respond-above(xs) {
+    max-width: $page-max-width;
+  }
+}
+
+.cnt--small {
+  @include respond-above(xs) {
+    max-width: $container-max-width-small;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-col {
+  align-items: center;
+  flex-direction: column;
+}
+
