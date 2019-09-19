@@ -1,5 +1,28 @@
+$breakpoints: (
+  xs: 576px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px
+);
+
 $grey-color: #f2f3f2;
 $green-color: #50bc9d;
+$green-color-hover: #10946e;
+
+$link-bright: white;
+$link-bright-hover: black;
+
+$link-dark: black;
+$link-dark-hover: $green-color-hover;
+
+$link-green: $green-color;
+$link-green-hover: $green-color-hover;
+
+$font-primary: 'Montserrat', sans-serif; 
+
+$container-padding: 0 20px;
+$container-header-padding: 70px 20px;
+
 
 $header-bg-color: $green-color;
 $header-font-color: white;
@@ -8,6 +31,5 @@ $about-bg-color: $grey-color;
 
 $page-min-width: 320px;
 $page-max-width: 1040px;
-$container-padding: 0 20px;
-$container-header-padding: 70px 20px;
-$font-primary: 'Montserrat', sans-serif; 
+
+

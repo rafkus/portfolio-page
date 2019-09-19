@@ -1,0 +1,24 @@
+.link {
+  transition: 0.2s;
+}
+
+.link--bright {
+  color: $link-bright;
+  &:hover {
+    color: $link-bright-hover;
+  }
+}
+
+.link--dark {
+  color: $link-dark;
+  &:hover {
+    color: $link-dark-hover;
+  }
+}
+
+.link--green {
+  color: $link-green;
+  &:hover {
+    color: $link-green-hover;
+  }
+}

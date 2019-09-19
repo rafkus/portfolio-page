@@ -2,15 +2,18 @@
 @import './abstracts/media_queries'; 
 
 @import './base/base';
+@import './base/helpers';
 
+@import './layout/helpers'; 
+@import './layout/section';
+@import './layout/header'; 
+@import './layout/footer'; 
+
+@import './components/link';
 @import './components/about';
 @import './components/projects';
 @import './components/skills';
 
-@import './layout/layout'; 
-@import './layout/utils'; 
-@import './layout/header'; 
-@import './layout/footer'; 
 
 @media screen and (min-width: 600px) {
   .container {
