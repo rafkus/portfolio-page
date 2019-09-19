@@ -1,0 +1,45 @@
+.container {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    min-width: $page-min-width;
+    padding: $container-padding;
+  }
+  
+  .container--small {
+    max-width: 680px;
+  }
+  
+  .container--big {
+    padding: $container-header-padding;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex-space-around {
+    justify-content: space-around;
+  }
+  
+  .container--skills {
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .section {
+    padding: 70px 0px;
+    box-sizing: border-box;
+  }
+  
+  .section--grey {
+    background-color: $about-bg-color;
+  }
+  
+  .section__title {
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }

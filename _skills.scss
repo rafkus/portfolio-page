@@ -1,0 +1,19 @@
+.skills {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.skills__main-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills__main-list-item {
+  padding-left: 10px;
+}
+
+.skills__main-list-item > ul > li {
+  margin-bottom: 6px;
+  line-height: 1;
+}

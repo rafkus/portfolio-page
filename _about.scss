@@ -1,0 +1,24 @@
+.section--about {
+    min-width: $page-min-width;
+    background-color: $about-bg-color;
+  }
+  
+  .about__container {
+    margin: 0 auto;
+    max-width: 680px;
+  }
+  
+  .about__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about__text {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .about__github {
+    font-size: 20px;
+  }
