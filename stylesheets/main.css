@@ -10,102 +10,6 @@ a {
   color: black;
   text-decoration: none; }
 
-.no-top-margin {
-  margin-top: 0; }
-
-.no-bottom-margin {
-  margin-bottom: 0; }
-
-.link {
-  transition: 0.2s; }
-
-.link--bright {
-  color: white; }
-  .link--bright:hover {
-    color: black; }
-
-.link--dark {
-  color: black; }
-  .link--dark:hover {
-    color: #10946e; }
-
-.link--green {
-  color: #50bc9d; }
-  .link--green:hover {
-    color: #10946e; }
-
-.text--green {
-  color: #50bc9d; }
-
-.container {
-  box-sizing: border-box;
-  display: flex;
-  margin: 0 auto;
-  min-width: 320px;
-  padding: 0 20px; }
-
-.container--small {
-  max-width: 680px; }
-
-.container--big {
-  padding: 70px 20px;
-  justify-content: space-between;
-  align-items: center; }
-
-.flex-space-around {
-  justify-content: space-around; }
-
-.container--skills {
-  align-items: center;
-  flex-direction: column; }
-
-.section {
-  padding: 70px 0px;
-  box-sizing: border-box; }
-
-.section--grey {
-  background-color: #f2f3f2; }
-
-.section__title {
-  margin-bottom: 70px;
-  text-align: center; }
-
-.about {
-  flex-direction: column;
-  align-items: center; }
-
-.header {
-  min-width: 320px;
-  background-color: #50bc9d;
-  color: white; }
-
-.header__title {
-  font-size: 20px;
-  letter-spacing: 2px;
-  margin: 0; }
-
-.header__menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-
-.header__menu-toggle {
-  display: block; }
-
-.header__menu-items {
-  display: none; }
-
-.header__menu-item {
-  margin: 0px 10px;
-  text-transform: uppercase; }
-
-.header__link {
-  color: white;
-  transition: 0.2s; }
-
-.header__link:hover {
-  color: black; }
-
 .section--about {
   min-width: 320px;
   background-color: #f2f3f2; }
@@ -125,22 +29,6 @@ a {
 
 .about__github {
   font-size: 20px; }
-
-.skills {
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: 60px; }
-
-.skills__main-list {
-  display: flex;
-  flex-direction: column; }
-
-.skills__main-list-item {
-  padding-left: 10px; }
-
-.skills__main-list-item > ul > li {
-  margin-bottom: 6px;
-  line-height: 1; }
 
 .container--project {
   display: flex;
@@ -187,6 +75,118 @@ a {
   box-sizing: border-box;
   margin-left: 20px; }
 
+.skills {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.skills__main-list {
+  display: flex;
+  flex-direction: column; }
+
+.skills__main-list-item {
+  padding-left: 10px; }
+
+.skills__main-list-item > ul > li {
+  margin-bottom: 6px;
+  line-height: 1; }
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  margin: 0 auto;
+  min-width: 320px;
+  padding: 0 20px; }
+
+.container--small {
+  max-width: 680px; }
+
+.container--big {
+  padding: 70px 20px;
+  justify-content: space-between;
+  align-items: center; }
+
+.flex-space-around {
+  justify-content: space-around; }
+
+.container--skills {
+  align-items: center;
+  flex-direction: column; }
+
+.section {
+  padding: 70px 0px;
+  box-sizing: border-box; }
+
+.section--grey {
+  background-color: #f2f3f2; }
+
+.section__title {
+  margin-bottom: 70px;
+  text-align: center; }
+
+.about {
+  flex-direction: column;
+  align-items: center; }
+
+.no-top-margin {
+  margin-top: 0; }
+
+.no-bottom-margin {
+  margin-bottom: 0; }
+
+.link {
+  transition: 0.2s; }
+
+.link--bright {
+  color: white; }
+  .link--bright:hover {
+    color: black; }
+
+.link--dark {
+  color: black; }
+  .link--dark:hover {
+    color: #10946e; }
+
+.link--green {
+  color: #50bc9d; }
+  .link--green:hover {
+    color: #10946e; }
+
+.text--green {
+  color: #50bc9d; }
+
+.header {
+  min-width: 320px;
+  background-color: #50bc9d;
+  color: white; }
+
+.header__title {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 0; }
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header__menu-toggle {
+  display: block; }
+
+.header__menu-items {
+  display: none; }
+
+.header__menu-item {
+  margin: 0px 10px;
+  text-transform: uppercase; }
+
+.header__link {
+  color: white;
+  transition: 0.2s; }
+
+.header__link:hover {
+  color: black; }
+
 .footer {
   height: 160px;
   background-color: #303030;
@@ -228,4 +228,4 @@ a {
     background-color: #50bc9d;
     padding: 40px 40px; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
